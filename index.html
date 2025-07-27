@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Spaces Map - Bản đồ Không gian Xanh Quy Nhôn</title>
+    <meta name="description" content="Khám phá các không gian xanh tại Quy Nhôn với bản đồ tương tác - Núi Vũng Chua, Núi Xuân Vân và nhiều địa điểm khác">
+    <style>
+      /* Custom styles for Leaflet markers */
+      .user-location-marker {
+        background: transparent !important;
+        border: none !important;
+      }
+      
+      /* Fix Leaflet popup z-index issues */
+      .leaflet-popup-pane {
+        z-index: 2000;
+      }
+      
+      /* Loading animation */
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      
+      .animate-pulse {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+
+      /* Custom styles for green spaces */
+      .green-space-highlight {
+        filter: brightness(1.2);
+        transition: filter 0.2s ease;
+        cursor: pointer;
+      }
+      
+      .green-space-highlight:hover {
+        filter: brightness(1.4);
+      }
+
+      /* Custom tooltip styles */
+      .green-space-tooltip {
+        background: rgba(0, 0, 0, 0.8) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 4px !important;
+        font-size: 12px !important;
+        padding: 4px 8px !important;
+      }
+
+      .green-space-tooltip::before {
+        border-top-color: rgba(0, 0, 0, 0.8) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
