@@ -7,7 +7,12 @@
 - **Thời gian trong ngày:** 6:00 - 16:00
 - **Thời gian trong năm:** Tháng 3 - Tháng 9
 - **Tọa độ:** 13.7667, 109.2333
-- **Mô tả:** Leo núi Vũng Chua với độ cao 400m, ngắm toàn cảnh vịnh Quy Nhơn từ trên cao
+- **Mô tả:** 
+    Dọc đường hay có xe ô tô và xe máy lên xuống, nên cẩn thận khi đi. TUYỆT ĐỐI không đi xe ga lên núi vì khả năng mất tay lái gây tai nạn rất cao.
+    Độ cao 600m, có nhiều cung đường để lựa chọn:
+    -   Đi đến trạm radar: 100% đường bê tông, sau khi đến trạm radar có thể đi tiếp mãi dọc theo dãy cây thông đến mõm núi ngắm toàn thành phố
+    -   Đi đến hòn đôi: thường gọi là cung đường Tây Vũng Chua, đường bắt đầu đi giống đường lên trạm Radar nhưng quẹo trái khi đến khúc cùi chỏ. Đường sau khi rẽ sẽ là đường mòn, đất sét không phù hợp để đi vào ngày mưa ẩm ướt.
+
 - **Độ khó:** Medium
 - **Danh mục:** Leo núi
 
