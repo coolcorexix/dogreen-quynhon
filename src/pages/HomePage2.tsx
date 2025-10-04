@@ -74,7 +74,7 @@ export function HomePage2() {
           <div>
             <a
               className="cursor-pointer hover:decoration-underline"
-              href="/activities"
+              href="/hoat-dong-moi-truong"
             >
               <i>
                 <span

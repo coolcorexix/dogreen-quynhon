@@ -1,0 +1,152 @@
+[
+  {
+    "day": 1,
+    "activityName": "Trồng 5 cây xanh trong vườn nhà",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 2,
+    "activityName": "Sử dụng túi vải thay vì túi nilon khi đi chợ",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 3,
+    "activityName": "Tắt đèn và thiết bị điện không cần thiết trong 2 giờ",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 4,
+    "activityName": "Phân loại rác thải tái chế và rác thải thường",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 5,
+    "activityName": "Đi bộ hoặc đạp xe thay vì đi xe máy trong 1 ngày",
+    "isCheckpointForGift": true
+  },
+  {
+    "day": 6,
+    "activityName": "Sử dụng chai nước tái sử dụng thay vì chai nhựa dùng một lần",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 7,
+    "activityName": "Thu gom rác thải nhựa trong khu vực xung quanh nhà",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 8,
+    "activityName": "Sử dụng năng lượng mặt trời để sạc điện thoại",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 9,
+    "activityName": "Trồng rau sạch tại nhà",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 10,
+    "activityName": "Tham gia hoạt động dọn dẹp bãi biển hoặc công viên",
+    "isCheckpointForGift": true
+  },
+  {
+    "day": 11,
+    "activityName": "Sử dụng ống hút tre hoặc ống hút inox thay vì ống hút nhựa",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 12,
+    "activityName": "Tái chế giấy cũ thành sổ ghi chú",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 13,
+    "activityName": "Sử dụng nước mưa để tưới cây",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 14,
+    "activityName": "Tham gia sự kiện bảo vệ môi trường tại địa phương",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 15,
+    "activityName": "Tạo phân hữu cơ từ rác thải thực phẩm",
+    "isCheckpointForGift": true
+  },
+  {
+    "day": 16,
+    "activityName": "Sử dụng xà phòng và dầu gội không chứa hóa chất độc hại",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 17,
+    "activityName": "Đi xe bus công cộng thay vì xe riêng",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 18,
+    "activityName": "Trồng cây xanh tại trường học hoặc nơi làm việc",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 19,
+    "activityName": "Sử dụng bình nước kim loại thay vì chai nhựa",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 20,
+    "activityName": "Tổ chức buổi giáo dục môi trường cho trẻ em",
+    "isCheckpointForGift": true
+  },
+  {
+    "day": 21,
+    "activityName": "Sử dụng nến thay vì đèn điện trong 2 giờ",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 22,
+    "activityName": "Tái sử dụng hộp đựng thực phẩm cũ",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 23,
+    "activityName": "Tham gia dự án trồng rừng",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 24,
+    "activityName": "Sử dụng pin sạc thay vì pin dùng một lần",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 25,
+    "activityName": "Tạo khu vườn mini trên ban công hoặc sân thượng",
+    "isCheckpointForGift": true
+  },
+  {
+    "day": 26,
+    "activityName": "Sử dụng khăn tay vải thay vì khăn giấy",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 27,
+    "activityName": "Tham gia chương trình tái chế rác thải điện tử",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 28,
+    "activityName": "Sử dụng năng lượng gió để làm mát nhà",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 29,
+    "activityName": "Tạo ra sản phẩm handmade từ vật liệu tái chế",
+    "isCheckpointForGift": false
+  },
+  {
+    "day": 30,
+    "activityName": "Tổ chức sự kiện nâng cao ý thức bảo vệ môi trường",
+    "isCheckpointForGift": true
+  }
+]

@@ -27,6 +27,14 @@ This project now includes a complete authentication system using Supabase with s
 - Persistent sessions
 - Loading states and error handling
 
+✅ **Environmental Activities Checklist**
+- Protected route `/hoat-dong-moi-truong` requiring authentication
+- 30-day environmental activities checklist
+- Read-only mode - users can view but not modify
+- Gift checkpoint highlighting for special activities
+- User-specific data storage in Supabase database
+- Row Level Security (RLS) for data protection
+
 ## Setup Instructions
 
 ### 1. Create a Supabase Project
@@ -64,14 +72,25 @@ In your Supabase dashboard:
 3. Enable **Phone** provider
 4. Configure your site URL (e.g., `http://localhost:5173` for development)
 
-### 5. Install Dependencies
+### 5. Set up Database Tables
+
+1. Go to **SQL Editor** in your Supabase dashboard
+2. Copy and paste the contents of `supabase-setup.sql`
+3. Run the SQL script to create the necessary tables and policies
+
+This will create:
+- `user_checklist_progress` table for storing user's checklist progress
+- Row Level Security (RLS) policies to ensure users can only access their own data
+- Proper indexes for performance
+
+### 6. Install Dependencies
 
 The Supabase client has been added to `package.json`. Run:
 ```bash
 npm install
 ```
 
-### 6. Start the Development Server
+### 7. Start the Development Server
 
 ```bash
 npm run dev

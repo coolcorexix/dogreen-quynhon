@@ -4,9 +4,15 @@ import { MapView } from './components/Map/MapView';
 import { KMZAnalyticsPage } from './components/KMZParser/KMZAnalyticsPage';
 import HomePage from './components/HomePage';
 import HeroPage from './components/HeroPage';
-import { Map, FileUp, Home, Mountain } from 'lucide-react';
+import { Map, FileUp, Home, Mountain, Settings } from 'lucide-react';
 import { HomePage2 } from './pages/HomePage2';
+import { EnvironmentalActivitiesPage } from './pages/EnvironmentalActivitiesPage';
 import { AuthProvider } from './contexts/AuthContext';
+import { AdminRoute } from './components/Admin/AdminRoute';
+import { MigrationPage } from './components/Admin/MigrationPage';
+import { TestPage } from './components/Admin/TestPage';
+import { LoginPage } from './components/Auth/LoginPage';
+import { SignupPage } from './components/Auth/SignupPage';
 
 const Navigation = () => {
   const location = useLocation();
@@ -60,6 +66,17 @@ const Navigation = () => {
             <Map className="w-4 h-4" />
             Map View
           </Link>
+          <Link
+            to="/admin"
+            className={`px-4 py-2 rounded-md font-medium transition-colors inline-flex items-center gap-2 ${
+              location.pathname === '/admin'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            <Settings className="w-4 h-4" />
+            Admin
+          </Link>
         </nav>
       </div>
     </header>
@@ -81,6 +98,12 @@ function App() {
               <Route path="/hero" element={<HeroPage />} />
               <Route path="/kmz" element={<KMZAnalyticsPage />} />
               <Route path="/map" element={<MapView />} />
+              <Route path="/hoat-dong-moi-truong" element={<EnvironmentalActivitiesPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/signup" element={<SignupPage />} />
+              <Route path="/admin" element={<AdminRoute />} />
+              <Route path="/admin/migration" element={<MigrationPage />} />
+              <Route path="/admin/test" element={<TestPage />} />
             </Routes>
           </main>
         </div>
